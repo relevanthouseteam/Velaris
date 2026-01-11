@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Velaris Privé | Avant-Garde Minimalist</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#6614b8",
+                        "background-light": "#f7f6f8",
+                        "background-dark": "#0a080d", // Darker for more mystery
+                        "alabaster": "#f2f0ea",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .vertical-text {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+        .text-glow:hover {
+            text-shadow: 0 0 15px rgba(102, 20, 184, 0.6);
+        }
+        .gradient-veil {
+            background: linear-gradient(to right, #0a080d 0%, rgba(10, 8, 13, 0.8) 40%, rgba(10, 8, 13, 0) 100%);
+        }
+        .gradient-bottom {
+            background: linear-gradient(to top, #0a080d 0%, rgba(10, 8, 13, 0) 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white selection:bg-primary selection:text-white">
+<!-- Subtle Navigation -->
+<header class="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-8 mix-blend-difference">
+<div class="flex items-center gap-2 group cursor-pointer">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"></path>
+</svg>
+</div>
+<h2 class="text-alabaster text-sm font-light tracking-[0.4em] uppercase">Velaris Privé</h2>
+</div>
+<nav class="hidden md:flex items-center gap-12">
+<a class="text-[10px] tracking-[0.3em] uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">Philosophy</a>
+<a class="text-[10px] tracking-[0.3em] uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">The Collection</a>
+<a class="text-[10px] tracking-[0.3em] uppercase opacity-60 hover:opacity-100 transition-opacity" href="#">Services</a>
+</nav>
+<div class="size-8 rounded-full border border-white/10 overflow-hidden flex items-center justify-center bg-white/5">
+<span class="material-symbols-outlined text-xs">menu</span>
+</div>
+</header>
+<main class="relative min-h-screen flex flex-col">
+<!-- Avant-Garde Hero Section -->
+<section class="relative h-screen w-full overflow-hidden flex items-center">
+<!-- Background Image with Asymmetric Veil -->
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Cinematic wide shot of a misty lake in the Italian Alps at dawn" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDS5xdchMTGqi4-2thg0TDDu8PIK8hA1OA7XoQyaR9GmmzhCoE6kddJefxr2djDyJPivXGUtFEhythRy_sWejcXNGgx1-1N4Do5ZZRpAaLct7t4yvOLpiPr0JhGt6BTsXWjAPGbeiN1CDbe2l5rBS2gAnlZeTgs6B227pVSQ7US3b0NRfWiIxO_cehss2cFE_uAiFj6DgGfvvYaYt28mXKaq8NLHkvWAOiw1xqsBhZfI7-BFf-_fZLSotV6gD-BDSleHWTS2v3ulSPx");'>
+</div>
+<div class="absolute inset-0 gradient-veil"></div>
+<div class="absolute inset-0 gradient-bottom"></div>
+<div class="absolute inset-0 bg-background-dark/20"></div>
+</div>
+<!-- Split Typography -->
+<div class="relative z-10 w-full px-10 md:px-24 flex flex-col items-start">
+<div class="max-w-4xl">
+<h1 class="text-alabaster text-6xl md:text-8xl font-extralight tracking-tight leading-[0.9]">
+<span class="block ml-0">The</span>
+<span class="block ml-12 md:ml-24 text-primary italic font-light mt-2">Sovereignty</span>
+<span class="block ml-4 md:ml-8 mt-2">of Travel</span>
+</h1>
+</div>
+<div class="mt-16 max-w-sm ml-4 md:ml-8 border-l border-primary/40 pl-8">
+<p class="text-alabaster/60 text-sm font-light leading-relaxed tracking-wide">
+                        Experience the <span class="text-alabaster">Velar</span> concept—an invisible hand watching over every detail, ensuring absolute privacy in the world's most storied landscapes.
+                    </p>
+<button class="mt-8 flex items-center gap-4 group">
+<span class="text-[10px] uppercase tracking-[0.3em] font-medium group-hover:text-primary transition-colors">Begin the Journey</span>
+<div class="h-[1px] w-12 bg-alabaster/30 group-hover:w-24 group-hover:bg-primary transition-all duration-500"></div>
+</button>
+</div>
+</div>
+<!-- Floating Vertical Element -->
+<div class="absolute right-12 bottom-24 hidden lg:flex flex-col items-center gap-8">
+<div class="vertical-text text-[10px] uppercase tracking-[0.5em] text-alabaster/30 font-light">
+                    Est. 2012 — London • Paris • St. Moritz
+                </div>
+<div class="w-[1px] h-32 bg-gradient-to-t from-primary/60 to-transparent"></div>
+</div>
+</section>
+<!-- The Collection - Vertical List Section -->
+<section class="relative bg-background-dark py-32 px-10 md:px-24 overflow-hidden">
+<div class="flex flex-col md:flex-row gap-20">
+<div class="md:w-1/3">
+<h2 class="text-alabaster text-4xl font-extralight tracking-tighter">The Collection</h2>
+<p class="text-alabaster/40 mt-6 text-sm leading-relaxed max-w-xs">
+                        A strictly private portfolio of residences and experiences, curated for those who value the luxury of silence.
+                    </p>
+</div>
+<div class="md:w-2/3 flex flex-col gap-16">
+<!-- Text Grid Styled as List -->
+<div class="group cursor-pointer flex items-baseline gap-10 border-b border-white/5 pb-10 hover:border-primary/40 transition-colors">
+<span class="text-[10px] text-primary font-bold tracking-widest">01</span>
+<div>
+<h3 class="text-2xl md:text-3xl font-light text-alabaster tracking-wide group-hover:translate-x-2 transition-transform duration-500">The Swiss Alp Hideaway</h3>
+<p class="text-xs uppercase tracking-[0.2em] text-alabaster/30 mt-2">St. Moritz, Switzerland</p>
+</div>
+<div class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined font-thin">north_east</span>
+</div>
+</div>
+<div class="group cursor-pointer flex items-baseline gap-10 border-b border-white/5 pb-10 hover:border-primary/40 transition-colors">
+<span class="text-[10px] text-primary font-bold tracking-widest">02</span>
+<div>
+<h3 class="text-2xl md:text-3xl font-light text-alabaster tracking-wide group-hover:translate-x-2 transition-transform duration-500">The Riviera Sanctuary</h3>
+<p class="text-xs uppercase tracking-[0.2em] text-alabaster/30 mt-2">Saint-Tropez, France</p>
+</div>
+<div class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined font-thin">north_east</span>
+</div>
+</div>
+<div class="group cursor-pointer flex items-baseline gap-10 border-b border-white/5 pb-10 hover:border-primary/40 transition-colors">
+<span class="text-[10px] text-primary font-bold tracking-widest">03</span>
+<div>
+<h3 class="text-2xl md:text-3xl font-light text-alabaster tracking-wide group-hover:translate-x-2 transition-transform duration-500">Parisian Penthouse</h3>
+<p class="text-xs uppercase tracking-[0.2em] text-alabaster/30 mt-2">Place Vendôme, France</p>
+</div>
+<div class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined font-thin">north_east</span>
+</div>
+</div>
+<div class="group cursor-pointer flex items-baseline gap-10 border-b border-white/5 pb-10 hover:border-primary/40 transition-colors">
+<span class="text-[10px] text-primary font-bold tracking-widest">04</span>
+<div>
+<h3 class="text-2xl md:text-3xl font-light text-alabaster tracking-wide group-hover:translate-x-2 transition-transform duration-500">Amalfi Coastal Retreat</h3>
+<p class="text-xs uppercase tracking-[0.2em] text-alabaster/30 mt-2">Positano, Italy</p>
+</div>
+<div class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined font-thin">north_east</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Ethos Section -->
+<section class="relative h-[60vh] bg-background-dark flex items-center justify-center text-center px-4 overflow-hidden">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full opacity-10 pointer-events-none">
+<div class="w-full h-full flex items-center justify-center">
+<span class="text-[20rem] font-black text-primary/20 select-none">PRIVÉ</span>
+</div>
+</div>
+<div class="relative z-10 max-w-2xl">
+<p class="text-alabaster text-lg md:text-xl font-extralight leading-relaxed tracking-wide italic">
+                    "Our presence is felt, not seen. We curate experiences that redefine the boundaries of luxury and privacy across Europe's most storied landscapes."
+                </p>
+<div class="mt-12 flex justify-center">
+<div class="w-10 h-[1px] bg-primary"></div>
+</div>
+</div>
+</section>
+<!-- Tucked Away Footer / Consultation -->
+<footer class="relative bg-background-dark pt-10 pb-20 px-10 md:px-24 flex flex-col md:flex-row items-end justify-between gap-10">
+<div class="flex flex-col gap-4 order-2 md:order-1">
+<div class="flex items-center gap-6 opacity-40">
+<a class="text-[9px] uppercase tracking-[0.2em] hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="text-[9px] uppercase tracking-[0.2em] hover:text-primary transition-colors" href="#">Journal</a>
+<a class="text-[9px] uppercase tracking-[0.2em] hover:text-primary transition-colors" href="#">Legal</a>
+</div>
+<p class="text-[9px] text-alabaster/20 tracking-widest uppercase">© 2024 Velaris Privé. All rights reserved.</p>
+</div>
+<div class="order-1 md:order-2 group">
+<a class="flex flex-col items-end gap-2" href="#">
+<span class="text-[10px] uppercase tracking-[0.4em] text-alabaster/60 group-hover:text-alabaster transition-colors">Contact our concierge</span>
+<h4 class="text-xl font-light text-alabaster border-b border-white/10 pb-1 group-hover:border-primary transition-colors tracking-tighter">
+                        Request Consultation
+                    </h4>
+</a>
+</div>
+</footer>
+</main>
+<!-- Map Decoration (Hidden but for data-location requirement) -->
+<div class="hidden" data-location="Saint-Tropez, France" style="https://lh3.googleusercontent.com/aida-public/AB6AXuBvTeIW2cYqD2MSJrFGnnJjo9qJAjSCswUdCfViPRygv4EOX0YchnCdu0f-3SD2-RlPaX8C3D3qd17LhsUJluR7EKZYHZnRju9A_oMjibfwKGVJBc2r2wALJvoT24R-PyU5fMjrhkcgNmiWiVsvTewqo8ECDMamAFzIkL7qlt99G249Wddsh5drqVzEtvKLs0BVjSQVuMDUjzUH4ieDQuqWcoufsfI5HSCGssyccJiJ5IwYZ6sfhkRyToVr164Xcq2V46854BDWzkMC"></div>
+<div class="hidden" data-location="St. Moritz, Switzerland" style="https://lh3.googleusercontent.com/aida-public/AB6AXuADqaeexZ3ToeLGM2ZtfKTB0M1sUIs2FpaVy0gXBRRhMtaJjb35d9GvtE1QVrrKa53Gl6q4OhaL0JAOd7rgjyo4a09gzpKHSt97g0H3D6n5He01gNZC_tTTzOBA0JUSSLxOgEzpKUHWYqW8pUuouMA5hkqDJ-8YdD0xONGtnYJvdJetAWaMP-XpuekfTAbfgoP5g4-K-QR6YUfiv8IQ_B1OOOSSkTiFVpa_PZWd4QcuBJmwf8x6_RCQcAq16b43mF2f9mnygDfgrP3H"></div>
+<div class="hidden" data-location="Paris, France" style="https://lh3.googleusercontent.com/aida-public/AB6AXuBWd3O0Edlh3zto4XUL2h9zTT7gwNkCDTxdN98An7t3IYfnahGrS240Lg0Y2VMCSWRZ0PAFWx9-nP6rMatl_5IM0aTs43rUFZ7xeOdKXmu0LfOLI7vA2Lhq2Hwz8mwqQCxtJP8K4W2G0WCsprUyhZmXf1_DaD8iIsOyz3-ZFrTyjxVkD7sBlZSlf58VW3x2FUU04v1-2iYcqzgR7Vlo3992OGYBT7tJ_7nZvnPL1kAspGibeBEWJaa1fg-DfHCf7WCoa-tS8EyzPXhu"></div>
+</body></html>
